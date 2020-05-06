@@ -71,13 +71,13 @@ MainScene::MainScene() {
         obstacle->setPos(900,590);
         sol* murtop= new sol("hautdemur.png");
        this->addItem(murtop);
-        murtop->setPos(900,580);
+        murtop->setPos(900,570);
         mur* obstaclee= new mur("mur.png");
         this->addItem(obstaclee);
         obstaclee->setPos(500,590);
         sol* murtopp= new sol("hautdemur.png");
         this->addItem(murtopp);
-        murtopp->setPos(500,580);
+        murtopp->setPos(500,570);
        this->addItem(tempsactuel);
        tempsactuel->setScale(5);
        tempsactuel->setPos(500,0);

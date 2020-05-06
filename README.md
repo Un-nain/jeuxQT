@@ -31,4 +31,10 @@ Les flèches directionnel gauche et droite font accéléré le personnage de man
 Tout d'abord assuré vous que Xming est allumé sur votre appareil.
 
 Puis ,pour lancer ce fantastique jeu, vous devez compiler puis exécuter le code sur un compilateur Cmake. (cmake_minimum_required(VERSION 3.7))
+Attention, pour la premiere utilisation vous devrez aussi edité le "run edit config",
+dans ce dernier vous devrez ajouter a:
+Working directory : "..\img"
+Environment variables: "DISPLAY=:0.0".
+
+Bon jeu a tous !
 
